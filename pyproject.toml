@@ -7,6 +7,9 @@ skip = "cp36*"
 build = "cp38*"
 manylinux-x86_64-image = "manylinux2014"
 
+[tool.uv]
+no-build-isolation = true
+
 #[tool.cibuildwheel.macos]
 #repair-wheel-command = """\
 #delocate-wheel \

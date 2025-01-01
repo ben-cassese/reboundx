@@ -8,6 +8,7 @@ build = "cp38*"
 manylinux-x86_64-image = "manylinux2014"
 
 [tool.uv]
+reinstall-package = ["reboundx"]
 no-build-isolation = true
 
 #[tool.cibuildwheel.macos]
